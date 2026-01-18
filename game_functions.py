@@ -2,7 +2,7 @@ import random
 
 # function to be used by game_1: Guess the Number
 def pick_value(poss_values):
-    x = random.randint(0, 20)
+    x = random.randint(poss_values)
     return x
 
 # function to be used in game_2: Higher or Lower
